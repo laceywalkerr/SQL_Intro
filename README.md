@@ -170,5 +170,5 @@ For each of the following exercises, provide the appropriate query. Yes, even th
 1. Using `MAX()` function, write a select statement to find the song with the longest duration. The result should display the song title and the duration.
 1. Modify the previous query to also display the title of the album. 
 
-## NOTES: 
+** Notes: **
 I used mkdir to create a new file with the name MusicHistorySQL, went to "Save As" and selected the appropriate directory to save my work.
