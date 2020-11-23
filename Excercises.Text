@@ -1,0 +1,27 @@
+1.
+
+SELECT * FROM Genre;
+
+2.
+
+**Attached
+
+3.
+
+
+
+
+
+
+
+
+
+
+
+
+6.
+
+SELECT al.Title
+from Album al
+LEFT JOIN Song s on s.AlbumId = al.Id
+WHERE s.Id IS NULL;
