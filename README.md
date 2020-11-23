@@ -20,7 +20,7 @@ What is a **relational database**? A relational database is one that stores data
 1. Right-click on "Databases" and select `Add new database`.
 1. Name the new database `MusicHistory`.
 1. Right click the `MusicHistory` database and choose `New Query`.
-1. Run [this SQL script](./assets/musichistory.sqlserver.sql) to create tables in your database and insert some seed data.
+1. Run [this SQL script](https://github.com/nashville-software-school/bangazon-inc/blob/cohort-43/book-1-orientation/chapters/assets/musichistory.sqlserver.sql) to create tables in your database and insert some seed data.
 1. Create a new query window You will be writing your SQL statements in this new, blank query window.
 
 ## Querying Data
