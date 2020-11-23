@@ -87,7 +87,7 @@ SELECT s.Title,
 ```
 
 ### SQL Joins Visualized
-![SQL Joins](https://imgur.com/936b8b5c-5822-4a3b-a59f-5479bea62369)
+![SQL Joins](https://i.imgur.com/LgJbym5.png)
 
 ## Creating New Data
 
