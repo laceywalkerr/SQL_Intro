@@ -1,0 +1,43 @@
+Table Album {
+  Id int 
+  Title varchar 
+  ReleaseDate varchar 
+  AlbumLength int 
+  Label varchar 
+  ArtistId int 
+  GenreId int [null]
+}
+
+
+Table Artist {
+  Id int 
+  ArtistName varchar 
+  YearEstablished int 
+ }
+
+Table Genre {
+  Id int 
+  Label varchar 
+  
+}
+
+
+Table Song {
+  Id int 
+  Title varchar
+  SongLength int
+  ReleaseDate varchar
+  GenreId int [null]
+  ArtistId int
+  AlbumId int
+}
+
+
+
+Ref: "Album"."ArtistId" < "Artist"."Id"
+
+Ref: "Genre"."Id" < "Album"."GenreId"
+
+Ref: "Song"."ArtistId" < "Artist"."Id"
+
+Ref: "Song"."GenreId" < "Genre"."Id"
