@@ -168,4 +168,7 @@ For each of the following exercises, provide the appropriate query. Yes, even th
 1. Write a `SELECT` query that lists the Artists that have put out records on more than one record label. Hint: When using `GROUP BY` instead of using a `WHERE` clause, use the [`HAVING`](https://www.tutorialspoint.com/sql/sql-having-clause.htm) keyword
 1. Using `MAX()` function, write a select statement to find the album with the longest duration. The result should display the album title and the duration.
 1. Using `MAX()` function, write a select statement to find the song with the longest duration. The result should display the song title and the duration.
-1. Modify the previous query to also display the title of the album.
+1. Modify the previous query to also display the title of the album. 
+
+** NOTES: **
+I used mkdir to create a new file with the name MusicHistorySQL, went to "Save As" and selected the appropriate directory to save my work.
